@@ -962,7 +962,23 @@ function init_column_categories() {
 	};
 }
 
+function init_shortcuts_helper() {
+	document.addEventListener("keydown", function (event) {
+		if (event.shiftKey && event.key === "?") {
+			const activeElement = document.activeElement;
+			const isInputField = activeElement.tagName === "INPUT" ||
+				activeElement.tagName === "TEXTAREA" ||
+				activeElement.isContentEditable;
+			if (!isInputField) {
+				window.location.href = context.urls.shortcut.replace(/&amp;/g, '&');
+			}
+		}
+	});
+}
+
 function init_shortcuts() {
+	init_shortcuts_helper();
+
 	Object.keys(context.shortcuts).forEach(function (k) {
 		context.shortcuts[k] = (context.shortcuts[k] || '').toUpperCase();
 		if (context.shortcuts[k].indexOf('&') >= 0) {
