@@ -11,31 +11,32 @@ Some parts of FreshRSS are not translated and are not intended to be translated 
 
 Available languages are:
 
-| Language (English name) | Language (Endonym) | Ordered by language code (ISO-639-1) |
-|:------------------------|:-----------------------|:-------------------------------------|
-| Czech                   | Čeština                | cs                                   |
-| German                  | Deutsch                | de                                   |
-| Greek                   | Ελληνικά               | el                                   |
-| English                 | English                | en                                   |
-| English (United States) | English (United States) | en-us                               |
-| Spanish                 | Español                | es                                   |
-| French                  | Français               | fr                                   |
-| Hebrew                  | עברית                  | he                                   |
-| Hungarian               | Magyar                 | hu                                   |
-| Indonesian              | Bahasa Indonesia       | id                                   |
-| Italian                 | Italiano               | it                                   |
-| Japanese                | 日本語                  | ja                                   |
-| Korean                  | 한국어                  | ko                                   |
-| Latvian                 | Latviešu               | lv                                   |
-| Dutch                   | Nederlands             | nl                                   |
-| Occitan                 | Occitan                | oc                                   |
-| Polish                  | Polski                 | pl                                   |
-| Brazilian Portuguese    | Português (Brasil)     | pt-br                                |
-| Russian                 | Русский                | ru                                   |
-| Slovak                  | Slovenčina             | sk                                   |
-| Turkish                 | Türkçe                 | tr                                   |
-| Chinese (Simplified, People’s Republic of China) | 简体中文      | zh-cn                 |
-| Chinese (Traditional, Taiwan) | 正體中文          | zh-tw                                |
+| Language (English name)                          | Language (Endonym)      | Ordered by language code (ISO-639-1) |
+|:-------------------------------------------------|:------------------------|:-------------------------------------|
+| Czech                                            | Čeština                 | cs                                   |
+| German                                           | Deutsch                 | de                                   |
+| Greek                                            | Ελληνικά                | el                                   |
+| English                                          | English                 | en                                   |
+| English (United States)                          | English (United States) | en-us                                |
+| Spanish                                          | Español                 | es                                   |
+| French                                           | Français                | fr                                   |
+| Hebrew                                           | עברית                   | he                                   |
+| Hungarian                                        | Magyar                  | hu                                   |
+| Indonesian                                       | Bahasa Indonesia        | id                                   |
+| Italian                                          | Italiano                | it                                   |
+| Japanese                                         | 日本語                     | ja                                   |
+| Korean                                           | 한국어                     | ko                                   |
+| Latvian                                          | Latviešu                | lv                                   |
+| Dutch                                            | Nederlands              | nl                                   |
+| Occitan                                          | Occitan                 | oc                                   |
+| Polish                                           | Polski                  | pl                                   |
+| Brazilian Portuguese                             | Português (Brasil)      | pt-br                                |
+| Russian                                          | Русский                 | ru                                   |
+| Slovak                                           | Slovenčina              | sk                                   |
+| Turkish                                          | Türkçe                  | tr                                   |
+| Ukrainian                                        | Українська              | ukr                                  |
+| Chinese (Simplified, People’s Republic of China) | 简体中文                    | zh-cn                                |
+| Chinese (Traditional, Taiwan)                    | 正體中文                    | zh-tw                                |
 
 ## Theme
 

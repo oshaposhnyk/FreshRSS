@@ -17,30 +17,31 @@ partie.
 
 Les langues disponibles sont:
 
-| Langue (nom français)   | Langue (endonyme)      | Classé par code de langue (ISO-639-1) |
-|:------------------------|:-----------------------|:-------------------------------------|
-| Tchèque                 | Čeština                | cs                                   |
-| Allemand                | Deutsch                | de                                   |
-| Grec                    | Ελληνικά               | el                                   |
-| Anglais                 | English                | en                                   |
-| Anglais (États-Unis)    | English (United States) | en-us                               |
-| Espagnol                | Español                | es                                   |
-| Français                | Français               | fr                                   |
-| Hébreu                  | עברית                  | he                                   |
-| Indonésien              | Bahasa Indonesia       | id                                   |
-| Italien                 | Italiano               | it                                   |
-| Japonais                | 日本語                  | ja                                   |
-| Coréen                  | 한국어                  | ko                                   |
-| Letton                  | Latviešu               | lv                                   |
-| Néerlandais             | Nederlands             | nl                                   |
-| Occitan                 | Occitan                | oc                                   |
-| Polonais                | Polski                 | pl                                   |
-| Portugais brésilien     | Português (Brasil)     | pt-br                                |
-| Russe                   | Русский                | ru                                   |
-| Slovaque                | Slovenčina             | sk                                   |
-| Turc                    | Türkçe                 | tr                                   |
-| Chinois (simplifié, République populaire de Chine) | 简体中文      | zh-cn               |
-| Chinois (traditionnel, Taïwan) | 正體中文          | zh-tw                               |
+| Langue (nom français)                              | Langue (endonyme)       | Classé par code de langue (ISO-639-1) |
+|:---------------------------------------------------|:------------------------|:--------------------------------------|
+| Tchèque                                            | Čeština                 | cs                                    |
+| Allemand                                           | Deutsch                 | de                                    |
+| Grec                                               | Ελληνικά                | el                                    |
+| Anglais                                            | English                 | en                                    |
+| Anglais (États-Unis)                               | English (United States) | en-us                                 |
+| Espagnol                                           | Español                 | es                                    |
+| Français                                           | Français                | fr                                    |
+| Hébreu                                             | עברית                   | he                                    |
+| Indonésien                                         | Bahasa Indonesia        | id                                    |
+| Italien                                            | Italiano                | it                                    |
+| Japonais                                           | 日本語                     | ja                                    |
+| Coréen                                             | 한국어                     | ko                                    |
+| Letton                                             | Latviešu                | lv                                    |
+| Néerlandais                                        | Nederlands              | nl                                    |
+| Occitan                                            | Occitan                 | oc                                    |
+| Polonais                                           | Polski                  | pl                                    |
+| Portugais brésilien                                | Português (Brasil)      | pt-br                                 |
+| Russe                                              | Русский                 | ru                                    |
+| Slovaque                                           | Slovenčina              | sk                                    |
+| Turc                                               | Türkçe                  | tr                                    |
+| Ukrainian                                          | Українська              | ukr                                   |
+| Chinois (simplifié, République populaire de Chine) | 简体中文                    | zh-cn                                 |
+| Chinois (traditionnel, Taïwan)                     | 正體中文                    | zh-tw                                 |
 
 ## Thème
 
