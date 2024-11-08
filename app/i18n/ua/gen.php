@@ -176,16 +176,16 @@ return array(
 		'zh-tw' => '正體中文',	// IGNORE
 	),
 	'menu' => array(
-		'about' => 'About',	// IGNORE
-		'account' => 'Account',	// IGNORE
-		'admin' => 'Administration',	// IGNORE
+		'about' => 'Про проект',
+		'account' => 'Аккаунт',
+		'admin' => 'Адміністрування',
 		'archiving' => 'Archiving',	// IGNORE
 		'authentication' => 'Authentication',	// IGNORE
 		'check_install' => 'Installation check',	// IGNORE
-		'configuration' => 'Configuration',	// IGNORE
+		'configuration' => 'Конфігурація',
 		'display' => 'Display',	// IGNORE
-		'extensions' => 'Extensions',	// IGNORE
-		'logs' => 'Logs',	// IGNORE
+		'extensions' => 'Розширення',
+		'logs' => 'Логи',
 		'privacy' => 'Privacy',	// IGNORE
 		'queries' => 'User queries',	// IGNORE
 		'reading' => 'Reading',	// IGNORE
@@ -247,15 +247,15 @@ return array(
 		'by_default' => 'By default',	// IGNORE
 		'damn' => 'Blast!',	// IGNORE
 		'default_category' => 'Uncategorized',	// IGNORE
-		'no' => 'No',	// IGNORE
+		'no' => 'Ні',
 		'not_applicable' => 'Not available',	// IGNORE
 		'ok' => 'Okay!',	// IGNORE
 		'or' => 'or',	// IGNORE
-		'yes' => 'Yes',	// IGNORE
+		'yes' => 'Так',
 	),
 	'stream' => array(
 		'load_more' => 'Load more articles',	// IGNORE
-		'mark_all_read' => 'Mark all as read',	// IGNORE
+		'mark_all_read' => 'Відмітити всі як прочитані',	// IGNORE
 		'nothing_to_load' => 'There are no more articles',	// IGNORE
 	),
 );

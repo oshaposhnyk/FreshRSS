@@ -39,7 +39,7 @@ Les langues disponibles sont:
 | Russe                                              | Русский                 | ru                                    |
 | Slovaque                                           | Slovenčina              | sk                                    |
 | Turc                                               | Türkçe                  | tr                                    |
-| Ukrainian                                          | Українська              | ukr                                   |
+| Ukrainien                                          | Українська              | ua                                    |
 | Chinois (simplifié, République populaire de Chine) | 简体中文                    | zh-cn                                 |
 | Chinois (traditionnel, Taïwan)                     | 正體中文                    | zh-tw                                 |
 

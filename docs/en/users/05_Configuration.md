@@ -34,7 +34,7 @@ Available languages are:
 | Russian                                          | Русский                 | ru                                   |
 | Slovak                                           | Slovenčina              | sk                                   |
 | Turkish                                          | Türkçe                  | tr                                   |
-| Ukrainian                                        | Українська              | ukr                                  |
+| Ukrainian                                        | Українська              | ua                                   |
 | Chinese (Simplified, People’s Republic of China) | 简体中文                    | zh-cn                                |
 | Chinese (Traditional, Taiwan)                    | 正體中文                    | zh-tw                                |
 

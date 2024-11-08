@@ -171,7 +171,7 @@ return array(
 		'ru' => 'Русский',	// IGNORE
 		'sk' => 'Slovenčina',	// IGNORE
 		'tr' => 'Türkçe',	// IGNORE
-		'ukr' => 'Українська',	// IGNORE
+		'ua' => 'Українська',	// IGNORE
 		'zh-cn' => '简体中文',	// IGNORE
 		'zh-tw' => '正體中文',	// IGNORE
 	),
