@@ -1079,7 +1079,7 @@ function init_shortcuts() {
 			ev.preventDefault();
 			return;
 		}
-		if (ev.key === '?' && ev.shiftKey) {
+		if (ev.key === '?') {
 			window.location.href = context.urls.shortcuts.replace(/&amp;/g, '&');
 			return;
 		}
