@@ -973,9 +973,7 @@ function init_shortcuts() {
 	});
 
 	document.addEventListener('keydown', ev => {
-		if (ev.target.closest('input, select, textarea') ||
-				(document.activeElement && document.activeElement.isContentEditable) ||
-				ev.ctrlKey || ev.metaKey || (ev.altKey && ev.shiftKey)) {
+		if (ev.ctrlKey || ev.metaKey || (ev.altKey && ev.shiftKey) || ev.target.closest('input, select, textarea')) {
 			return;
 		}
 
