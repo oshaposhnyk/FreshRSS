@@ -962,17 +962,6 @@ function init_column_categories() {
 	};
 }
 
-function init_shortcuts_helper() {
-	const activeElement = document.activeElement;
-	const isInputField = activeElement && (
-		["INPUT", "TEXTAREA", "SELECT"].includes(activeElement.tagName) ||
-		activeElement.isContentEditable
-	);
-	if (!isInputField) {
-		window.location.href = context.urls.shortcut.replace(/&amp;/g, '&');
-	}
-}
-
 function init_shortcuts() {
 	Object.keys(context.shortcuts).forEach(function (k) {
 		context.shortcuts[k] = (context.shortcuts[k] || '').toUpperCase();
@@ -984,7 +973,8 @@ function init_shortcuts() {
 	});
 
 	document.addEventListener('keydown', ev => {
-		if (ev.target.closest('input, textarea') ||
+		if (ev.target.closest('input, select, textarea') ||
+				(document.activeElement && document.activeElement.isContentEditable) ||
 				ev.ctrlKey || ev.metaKey || (ev.altKey && ev.shiftKey)) {
 			return;
 		}
@@ -1091,8 +1081,9 @@ function init_shortcuts() {
 			ev.preventDefault();
 			return;
 		}
-		if (ev.shiftKey && ev.key === "?") {
-			init_shortcuts_helper();
+		if (ev.key === '?' && ev.shiftKey) {
+			window.location.href = context.urls.shortcuts.replace(/&amp;/g, '&');
+			return;
 		}
 
 		if (ev.altKey || ev.shiftKey) {
